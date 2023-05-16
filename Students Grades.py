@@ -124,7 +124,7 @@ def grades():
         t = 1
     if t == 1:
         grades = input("His Grades: ")
-        if(gardes == 'abort'):
+        if(grades == 'abort'):
             return
         g = grades.split()
         x = []
